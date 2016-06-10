@@ -93,9 +93,9 @@ func queryLatestEvents() {
     
     let query = PFQuery(className: EVENTS_CLASS_NAME)
     query.whereKey(EVENTS_IS_PENDING, equalTo: false)
-    query.orderByDescending(EVENTS_START_DATE)
+    query.orderByAscending(EVENTS_START_DATE)
     query.limit = limitForRecentEventsQuery
-    // Query bloxk
+    // Query block
     query.findObjectsInBackgroundWithBlock { (objects, error)-> Void in
         if error == nil {
             if let objects = objects  {

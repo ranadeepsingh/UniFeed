@@ -88,7 +88,7 @@ func clearFields(sender:UIButton) {
     startDateOutlet.setTitle("Tap to choose date", forState: UIControlState.Normal)
     endDateOutlet.setTitle("Tap to choose date", forState: UIControlState.Normal)
     costTxt.text = ""
-    websiteTxt.text = ""
+    websiteTxt.text = "http://"
     yourNameTxt.text = ""
     yourEmailTxt.text = ""
     eventImage.image = nil

@@ -31,7 +31,7 @@
             </objects>
             <point key="canvasLocation" x="-719" y="175"/>
         </scene>
-        <!--IEEE DTU EVENTS-->
+        <!--Upcoming Events-->
         <scene sceneID="Ct4-Sg-koh">
             <objects>
                 <viewController storyboardIdentifier="Home" id="aJJ-c7-gB3" customClass="Home" customModule="UniFeed" customModuleProvider="target" sceneMemberID="viewController">
@@ -92,7 +92,7 @@
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                             </subviews>
-                                                            <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="0.31713362068965517" colorSpace="calibratedRGB"/>
+                                                            <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="0.24412715517241379" colorSpace="calibratedRGB"/>
                                                         </view>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TITLE" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="7" id="U6F-LF-1Dw" userLabel="titleLbl">
                                                             <rect key="frame" x="8" y="148" width="187" height="38"/>
@@ -183,7 +183,7 @@
                         </subviews>
                         <color key="backgroundColor" red="0.87450980392156863" green="0.93725490196078431" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="IEEE DTU EVENTS" id="GAA-eF-E2e">
+                    <navigationItem key="navigationItem" title="Upcoming Events" id="GAA-eF-E2e">
                         <barButtonItem key="leftBarButtonItem" systemItem="search" id="zOh-Si-WRF" userLabel="SearchButt">
                             <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <connections>
@@ -274,7 +274,7 @@
                                                 <rect key="frame" x="8" y="7" width="288" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" keyboardAppearance="light" returnKeyType="next"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light" returnKeyType="next"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="QgP-Ba-Mn3" id="82x-yp-X8E"/>
                                                 </connections>
@@ -289,20 +289,6 @@
                                         <color key="textColor" red="0.1824207165" green="0.2145885287" blue="0.25577965559999999" alpha="1" colorSpace="calibratedRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="y5Z-8N-mnr" userLabel="startDateButt">
-                                        <rect key="frame" x="8" y="394" width="304" height="44"/>
-                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
-                                        <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
-                                        <state key="normal" title="Tap to choose date">
-                                            <color key="titleColor" red="0.1824207165" green="0.2145885287" blue="0.25577965559999999" alpha="1" colorSpace="calibratedRGB"/>
-                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                        </state>
-                                        <connections>
-                                            <action selector="startDateButt:" destination="QgP-Ba-Mn3" eventType="touchUpInside" id="6pB-Ih-tff"/>
-                                        </connections>
-                                    </button>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="EVENT END DATE &amp; TIME" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="lRs-s4-Gfk">
                                         <rect key="frame" x="8" y="452" width="182" height="27"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -362,7 +348,7 @@
                                                 <rect key="frame" x="8" y="7" width="288" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="URL" keyboardAppearance="light" returnKeyType="next"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="URL" keyboardAppearance="light" returnKeyType="next"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="QgP-Ba-Mn3" id="FhB-eU-YOp"/>
                                                 </connections>
@@ -397,7 +383,7 @@
                                                 <rect key="frame" x="8" y="7" width="288" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardAppearance="light" returnKeyType="next"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light" returnKeyType="next"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="QgP-Ba-Mn3" id="9oO-1j-q4l"/>
                                                 </connections>
@@ -420,7 +406,7 @@
                                                 <rect key="frame" x="8" y="7" width="288" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardType="emailAddress" keyboardAppearance="light" returnKeyType="done"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" keyboardAppearance="light" returnKeyType="done"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="QgP-Ba-Mn3" id="dOP-cE-S0z"/>
                                                 </connections>
@@ -452,6 +438,20 @@
                                         </state>
                                         <connections>
                                             <action selector="chooseImageButt:" destination="QgP-Ba-Mn3" eventType="touchUpInside" id="J0c-d8-fdC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="y5Z-8N-mnr" userLabel="startDateButt">
+                                        <rect key="frame" x="8" y="394" width="304" height="44"/>
+                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="14"/>
+                                        <inset key="contentEdgeInsets" minX="8" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        <state key="normal" title="Tap to choose date">
+                                            <color key="titleColor" red="0.1824207165" green="0.2145885287" blue="0.25577965559999999" alpha="1" colorSpace="calibratedRGB"/>
+                                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                        </state>
+                                        <connections>
+                                            <action selector="startDateButt:" destination="QgP-Ba-Mn3" eventType="touchUpInside" id="6pB-Ih-tff"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -533,7 +533,7 @@
                                                 <rect key="frame" x="8" y="7" width="288" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" keyboardAppearance="light" returnKeyType="next"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardAppearance="light" returnKeyType="next"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="mrf-Mw-62e" id="nlh-Rq-Nr7"/>
                                                 </connections>
@@ -556,7 +556,7 @@
                                                 <rect key="frame" x="8" y="7" width="288" height="30"/>
                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="13"/>
-                                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" keyboardAppearance="light" returnKeyType="next"/>
+                                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" keyboardAppearance="light" returnKeyType="next"/>
                                                 <connections>
                                                     <outlet property="delegate" destination="mrf-Mw-62e" id="VWF-jS-S6G"/>
                                                 </connections>

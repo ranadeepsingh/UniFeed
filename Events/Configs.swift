@@ -124,11 +124,6 @@ var GALLERY_EVENT_ID = "eventID"
 var GALLERY_IMAGE = "image"
 
 
-
-//-----------------------------------------
-
-
-
 // DATE EXTENSION TO COMPARE DATES
 extension NSDate {
     func isGreaterThanDate(dateToCompare : NSDate) -> Bool {
