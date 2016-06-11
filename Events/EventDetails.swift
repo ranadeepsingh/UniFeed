@@ -52,7 +52,7 @@ GADBannerViewDelegate
     var reportButt = UIButton()
     
     //Ad banners properties
-    var adMobBannerView = GADBannerView()
+    //var adMobBannerView = GADBannerView()
     
     
     
@@ -111,7 +111,7 @@ override func viewDidLoad() {
 
     
     // Init ad banners
-    initAdMobBanner()
+    //initAdMobBanner()
     
     
     
@@ -518,6 +518,7 @@ func backButton(sender: UIButton) {
     
     
 // MARK: - ADMOB BANNER METHODS
+/*
 func initAdMobBanner() {
         adMobBannerView.adSize =  GADAdSizeFromCGSize(CGSizeMake(320, 50))
         adMobBannerView.frame = CGRectMake(0, self.view.frame.size.height, 320, 50)
@@ -559,7 +560,7 @@ func initAdMobBanner() {
         print("AdMob Can't load ads right now, they'll be available later \n\(error)")
         hideBanner(adMobBannerView)
     }
-  
+*/  
     
     
     
