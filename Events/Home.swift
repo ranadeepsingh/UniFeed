@@ -30,7 +30,7 @@ GADBannerViewDelegate
     @IBOutlet weak var searchOutlet: UIBarButtonItem!
     
     //Ad banners properties
-    var adMobBannerView = GADBannerView()
+    //var adMobBannerView = GADBannerView()
     
     
     
@@ -58,7 +58,7 @@ override func viewDidLoad() {
 
     
     // Init ad banners
-    initAdMobBanner()
+    //initAdMobBanner()
     
     
     // Associate the device with a user for Push Notifications
@@ -305,7 +305,7 @@ func hideSearchView() {
     
     
 // MARK: -  ADMOB BANNER METHODS
-
+/*
     // Initialize Google AdMob banner
     func initAdMobBanner() {
         adMobBannerView.adSize =  GADAdSizeFromCGSize(CGSizeMake(320, 50))
@@ -356,7 +356,7 @@ func hideSearchView() {
         print("AdMob Can't load ads right now, they'll be available later \n\(error)")
         hideBanner(adMobBannerView)
     }
-    
+*/    
 
     
     
